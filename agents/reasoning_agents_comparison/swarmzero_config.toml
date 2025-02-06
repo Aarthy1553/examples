@@ -1,0 +1,20 @@
+[model]
+model = "gpt-4o"
+
+[environment]
+type = "dev"
+
+[timeout]
+llm = 60
+
+[o3_agent]
+model = "o3-mini"
+environment="dev"
+timeout = 30
+
+[r1_agent]
+model = "deepseek-ai/DeepSeek-R1"
+environment="dev"
+timeout = 60
+
+
